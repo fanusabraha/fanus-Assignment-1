@@ -1,0 +1,38 @@
+
+
+body{  color: white;
+}
+html{
+    color: white;
+    font-size: 25px;
+}
+.containerrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 250px;
+}
+.containercolumn{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type='button']{
+background-image: linear-gradient(to right,rgba(207, 184, 133, 0.658),rgba(255, 115, 0, 0.966));
+font-weight: bold;
+border: 0px;
+font-size: 12px;
+color: white;
+border-radius: 20px;
+}
+#text1{
+    color: white;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
